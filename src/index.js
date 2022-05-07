@@ -4,10 +4,10 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import {App, HomeApp} from './App.js';
 import reportWebVitals from './reportWebVitals';
-import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.0/firebase-app.js";
-  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.8.0/firebase-analytics.js";
-  import { getStorage, ref } from "https://www.gstatic.com/firebasejs/9.8.0/firebase-storage.js"
-  import {doc, getDoc, getFirestore, exists} from "https://www.gstatic.com/firebasejs/9.8.0/firebase-firestore.js"
+import { initializeApp } from "firebase/app";
+  import { getAnalytics } from "firebase/analytics";
+  import { getStorage, ref } from "firebase/storage"
+  import {doc, getDoc, getFirestore, exists} from "firebase/firestore"
   const firebaseConfig = {
     apiKey: "AIzaSyAGHLJ9I7OFzSFrllguQOUFV01Qkg-y8eY",
     authDomain: "filmowatch-793d3.firebaseapp.com",
